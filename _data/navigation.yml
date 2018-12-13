@@ -1,0 +1,16 @@
+# main links
+main:
+  - title: 'Accueil'
+    url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: 'Thème MHT'
+    url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: 'Thème MIM'
+    url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: 'Thème SI'
+    url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: 'Thème EESA'
+    url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: 'Sample Posts'
+  #   url: /year-archive/
+  # - title: 'Sitemap'
+  #   url: /sitemap/
