@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 header:
   overlay_color: '#5e616c'
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_image: /assets/images/1.jpg
   actions:
     - label: "<i class='fas fa-download'></i> Install now"
       url: '/docs/quick-start-guide/'
@@ -32,6 +32,17 @@ feature_row:
     url: '/docs/license/'
     btn_class: 'btn--primary'
     btn_label: 'Learn more'
+carousel:
+  - image: home/athenaBeta.jpeg
+    text: random text 1
+
+  - image: home/transport.jpeg
+    text: |
+      random text 2
+
+  - image: home/coffee.jpeg
+    text: |
+      random text 3
 ---
 
 {% include feature_row %}
