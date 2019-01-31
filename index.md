@@ -3,33 +3,37 @@ layout: splash
 permalink: /
 header:
   overlay_color: '#5e616c'
-  overlay_image: /assets/images/1.jpg
+  overlay_image: /assets/images/image1.jpg
   actions:
     - label: "<i class='fas fa-download'></i> Install now"
       url: '/docs/quick-start-guide/'
 excerpt: >
   A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
   <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.14.1">Latest release v4.14.1</a></small>
-feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+feature_row1:
+  - image_path: /assets/images/image1.jpg
     alt: 'customizable'
-    title: 'Super customizable'
-    excerpt: 'Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter.'
+    title: 'Axe1: Mécanique et Couplage'
+    excerpt: 'Il réunit des compétences pour la formulation et la valorisation de nouveaux matériaux ainsi que pour l’étude des systèmes mécaniques et des transferts:
+
+Thème 1 : Matériaux et Efficacité Énergétique (MEE)
+
+Thème 2 : Modélisation Mécanique et Phénomènes de Transferts (MMPT)'
     url: '/docs/configuration/'
     btn_class: 'btn--primary'
     btn_label: 'Learn more'
+feature_row2:
   - image_path: /assets/images/mm-responsive-feature.png
     alt: 'fully responsive'
-    title: 'Responsive layouts'
-    excerpt: 'Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content.'
+    title: 'Axe 2 : Énergies et Systèmes'
+    excerpt: 'Il rassemble les capacités scientifiques pour assurer la maîtrise de l’énergie dans un système multi sources:
+
+Thème 3 : Systèmes Intelligents (SI)
+
+Thème 4 : Énergie Électrique et Systèmes Associés (EESA)
+
+Les travaux en cours et les projets de recherche concernent principalement les matériaux nouveaux et l’optimisation énergétique dans les domaines de la construction et des transports.'
     url: '/docs/layouts/'
-    btn_class: 'btn--primary'
-    btn_label: 'Learn more'
-  - image_path: /assets/images/mm-free-feature.png
-    alt: '100% free'
-    title: '100% free'
-    excerpt: 'Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!'
-    url: '/docs/license/'
     btn_class: 'btn--primary'
     btn_label: 'Learn more'
 carousel:
@@ -45,4 +49,19 @@ carousel:
       random text 3
 ---
 
-{% include feature_row %}
+<h2 align="center"> Bienvenue au Laboratoire des Technologies Innovantes</h2>
+<h5 align="center">Directeur : Professeur Hassen Beji</h5>
+
+Créé en 2004 par le regroupement de deux équipes de recherche de Université de Picardie Jules Verne, spécialisées dans l’ingénierie des matériaux et la modélisation des systèmes complexes, le Laboratoire des Technologies Innovantes (LTI) est reconnu sous le statut d’équipe d’accueil – EA 3899. Recomposé en 2008, il s’est articulé autour de six équipes dans le domaine des Sciences Pour l’Ingénieur.
+
+A partir de 2012, et dans une volonté de prendre part à la réalisation de projets pluridisciplinaires et structurants d’envergure nationale voire internationale, le LTI s’est réorganisé en regroupant certaines de ses activités pour afficher quatre thématiques réunies sous deux axes principaux qui interagissent. Ses activités de recherche s’articulent principalement autour des spécialités des sections du CNU 60, 61, 62 et 63. Représentant ainsi le domaine des sciences pour I’ ingénieur au sein de l’UPJV et dans la région Picardie, ses équipes sont présentes sur plusieurs sites : Amiens, Saint Quentin et Cuffies/Soissons.
+
+Le laboratoire est rattaché à l’École Doctorale en Sciences et Santé de l’UPJV (EDSS).
+
+Composé de plus de 51 permanents dont 41 enseignants-chercheurs, ses activités de recherche s’articulent autour de l’utilisation efficace des ressources énergétiques pour un développement durable.
+
+---
+
+{% include feature_row id="feature_row1" type="left" %}
+
+{% include feature_row id="feature_row2" type="right" %}

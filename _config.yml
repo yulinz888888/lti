@@ -13,16 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: LTI / Laboratoire des Technologies Innovantes
+email: gf.lti@u-picardie.fr
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Le LTI présente une orientation scientifique sur l’utilisation efficace des ressources énergétiques pour un développement durable, dans un cadre qui s’articule autour de deux axes « Mécanique et Couplage » et « Énergies et Systèmes ».
 baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
 
 breadcrumbs: true
 
@@ -32,6 +28,16 @@ theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+footer:
+  links:
+    - label: 'Twitter'
+      icon: 'fab fa-fw fa-twitter-square'
+      url: 'https://twitter.com/mmistakes'
+    - label: 'Facebook'
+      icon: 'fab fa-fw fa-facebook'
+      url: 'https://github.com/mmistakes'
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
