@@ -3,13 +3,13 @@ layout: splash
 permalink: /
 header:
   overlay_color: '#5e616c'
-  overlay_image: assets/images/image1.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: '/docs/quick-start-guide/'
+  overlay_image: /assets/images/image1.jpg
+  # actions:
+  #   - label: "<i class='fas fa-download'></i> Install now"
+  #     url: '/docs/quick-start-guide/'
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.14.1">Latest release v4.14.1</a></small>
+   Le LTI présente une orientation scientifique sur l’utilisation efficace des ressources énergétiques pour un développement durable, dans un cadre qui s’articule autour de deux axes « Mécanique et Couplage » et « Énergies et Systèmes ».
+
 feature_row1:
   - image_path: /assets/images/image1.jpg
     alt: 'customizable'
