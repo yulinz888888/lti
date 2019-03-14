@@ -29,7 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-remote_theme: 'mmistakes/minimal-mistakes@4.15.2'
+remote_theme: mmistakes/minimal-mistakes
 
 footer:
   links:
