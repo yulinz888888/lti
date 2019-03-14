@@ -23,7 +23,7 @@ Thème 2 : Modélisation Mécanique et Phénomènes de Transferts (MMPT)'
     btn_class: 'btn--primary'
     btn_label: 'Learn more'
 feature_row2:
-  - image_path: /assets/images/mm-responsive-feature.png
+  - image_path: /assets/images/image1.jpg
     alt: 'fully responsive'
     title: 'Axe 2 : Énergies et Systèmes'
     excerpt: 'Il rassemble les capacités scientifiques pour assurer la maîtrise de l’énergie dans un système multi sources:

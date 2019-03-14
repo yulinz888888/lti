@@ -28,9 +28,9 @@ theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-remote-theme
+  # - jekyll-remote-theme
 
-remote_theme: mmistakes/minimal-mistakes
+# remote_theme: mmistakes/minimal-mistakes
 
 footer:
   links:
