@@ -37,9 +37,6 @@ footer:
     - label: 'Twitter'
       icon: 'fab fa-fw fa-twitter-square'
       url: 'https://twitter.com/mmistakes'
-    - label: 'Facebook'
-      icon: 'fab fa-fw fa-facebook'
-      url: 'https://github.com/mmistakes'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -53,8 +50,7 @@ footer:
 #   - vendor/gems/
 #   - vendor/ruby/
 exclude: []
-
-sass:
-  load_paths:
-    - _sass
-    - node_modules
+# sass:
+#   load_paths:
+#     - _sass
+#     - node_modules
