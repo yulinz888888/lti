@@ -1,9 +1,9 @@
 ---
 layout: splash
-permalink: /lti/
+permalink: /
 header:
   overlay_color: '#5e616c'
-  overlay_image: /assets/images/image1.jpg
+  overlay_image: /lti/assets/images/image1.jpg
   # actions:
   #   - label: "<i class='fas fa-download'></i> Install now"
   #     url: '/docs/quick-start-guide/'
