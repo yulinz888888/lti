@@ -17,8 +17,8 @@ title: LTI / Laboratoire des Technologies Innovantes
 email: gf.lti@u-picardie.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Le LTI présente une orientation scientifique sur l’utilisation efficace des ressources énergétiques pour un développement durable, dans un cadre qui s’articule autour de deux axes « Mécanique et Couplage » et « Énergies et Systèmes ».
-baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://www.yulinzhang.fr/lti' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/lti' # the subpath of your site, e.g. /blog
+url: '' # the base hostname & protocol for your site, e.g. http://example.com
 
 breadcrumbs: true
 
