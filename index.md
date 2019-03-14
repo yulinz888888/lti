@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /
+permalink: /lti/
 header:
   overlay_color: '#5e616c'
   overlay_image: /assets/images/image1.jpg
